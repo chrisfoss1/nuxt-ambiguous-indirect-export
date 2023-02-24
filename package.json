@@ -1,0 +1,20 @@
+{
+  "name": "ambiguous-indirect-export-repro",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.14.1",
+    "lodash": "^4.17.21",
+    "nuxt": "^3.1.2",
+    "vue": "^3.2.47"
+  }
+}
